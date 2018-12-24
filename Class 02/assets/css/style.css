@@ -1,0 +1,64 @@
+/* base css */
+a:focus{outline: 0 solid}
+a:hover{text-decoration: none;}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+
+html,
+body{height:100%;}
+
+.section-bg-1{background-image: url(../img/almond_cherry_cupcakes-wallpaper-2880x1800.jpg)}
+.section-bg-2{background-image: url(../img/mango_fruits-wallpaper-3840x1600.jpg)}
+.section-padding{
+    background-size: cover;
+    background-position: center;
+}
+.zigzag-text {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    padding-right: 50px;
+}
+
+.zigzag-text:after {
+    position: absolute;
+    left: -4900%;
+    top: 0;
+    width: 5000%;
+    height: 100%;
+    content: '';
+    background: #07224F;
+    z-index: -1;
+    transform: skew(12deg);
+    opacity: .9;
+}
+.zigzag-text{
+    padding: 120px 0;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #fff;
+    color: #07224F;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.section-bg-2 .zigzag-text:after {left: auto;right: -4900%;}
+.section-bg-2 .zigzag-text{
+    padding-right: 0px;
+    padding-left: 50px;
+}
