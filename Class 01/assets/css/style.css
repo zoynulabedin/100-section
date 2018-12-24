@@ -1,0 +1,103 @@
+/* base css */
+a:focus{outline: 0 solid}
+a:hover{text-decoration: none;}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+
+html,
+body{height:100%;}
+
+.section-bg{background-image: url(../img/bg05.jpg)}
+.section-padding {
+    position: relative;
+    padding: 50px 0;
+}
+
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 61%;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #5ABFB7;
+    opacity: .9;
+}
+
+.contact-form input,textarea {
+    width: 100%;
+    border: 0;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.contact-form input[type=button] {
+    width: auto;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: #5CB3A9;
+    font-weight: 700;
+}
+h2.absulate-text {
+    position: absolute;
+    left: -119px;
+    transform: rotate(270deg);
+    top: 29%;
+    color: #fff;
+    opacity: .5;
+}
+.appointment-text {
+    padding-left: 80px;
+    margin: 64px 0;
+}
+
+.appointment-text h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.appointment-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #5CB2A8;
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.appointment-text ul li {
+    margin-bottom: 12px;
+}
+
+.appointment-text li i {
+    margin-right: 10px;
+    color: #5CB2A8;
+}
