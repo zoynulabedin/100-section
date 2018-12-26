@@ -1,0 +1,65 @@
+/* base css */
+a:focus{outline: 0 solid}
+a:hover{text-decoration: none;}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+
+html,
+body{height:100%;}
+
+.video-bg-area{background-image: url(../img/fruit-t2.jpg);background-size: cover;background-position: center;background-color: #ddd;}
+section.video-section {
+    position: relative;
+}
+
+.video-bg-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 49%;
+}
+
+.video-bg-area i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    background: green;
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-right: -22px;
+}
+h3 {
+    font-size: 23px;
+}
+
+
+
+ul.check-list li i {
+    color: green;
+    margin-right: 18px;
+}
+
+ul.check-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
